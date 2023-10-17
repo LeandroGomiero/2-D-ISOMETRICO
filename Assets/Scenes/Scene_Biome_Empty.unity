@@ -150,7 +150,7 @@ RectTransform:
   m_GameObject: {fileID: 30992746}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.96464, y: 0.96464, z: 0.96464}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1270480163}
@@ -158,7 +158,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 99.093, y: -128.9194}
+  m_AnchoredPosition: {x: 95.33332, y: -117.16224}
   m_SizeDelta: {x: 198.19, y: 57.5145}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &30992748
@@ -208,8 +208,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 41.9
-  m_fontSizeBase: 41.9
+  m_fontSize: 39.78
+  m_fontSizeBase: 39.78
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -244,7 +244,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0.93930817, w: 0}
+  m_margin: {x: 0, y: 0, z: 0.93930817, w: -16.667234}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -26219,7 +26219,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1619510528, guid: 5e2a82902b6ea4c0b9b652322ffadcff, type: 3}
       propertyPath: m_Layer
-      value: 7
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1619510528, guid: 5e2a82902b6ea4c0b9b652322ffadcff, type: 3}
       propertyPath: m_IsActive
@@ -27258,7 +27258,7 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3339481645408498932, guid: 5e2a82902b6ea4c0b9b652322ffadcff, type: 3}
   m_PrefabInstance: {fileID: 766874357}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1009234060
+--- !u!114 &1009234064
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -27267,7 +27267,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 164540878}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 802b85af724a9b342a8ef967301b12ae, type: 3}
+  m_Script: {fileID: 11500000, guid: 43ecf81bde774bb42a0afee80e235384, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 100
@@ -27369,9 +27369,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1051040264}
   - component: {fileID: 1051040263}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: GameManager
-  m_TagString: Player
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

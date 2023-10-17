@@ -25,6 +25,9 @@ public class PlayerHealth : MonoBehaviour
 
         if (currentHealth <= 0)
         {
+            // O jogador morreu, adicione o código para lidar com a morte do jogador aqui
+            Debug.Log("O jogador morreu!");
+
             // Destruir o objeto do jogador
             Destroy(gameObject);
         }
@@ -50,4 +53,3 @@ public class PlayerHealth : MonoBehaviour
         }
     }
 }
-
