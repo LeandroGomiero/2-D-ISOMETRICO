@@ -9,7 +9,7 @@ public class Wood : MonoBehaviour
     [SerializeField] private float timeMove;
 
     private float timeCount;
-    
+
     // Start is called before the first frame update
 
     void Update()
@@ -26,9 +26,10 @@ public class Wood : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
-            collision.GetComponent<PlayerItens>().totalWood++;
+            GameManager.instance.WoodCollected();
+
             Destroy(gameObject);
-            
+
         }
     }
 

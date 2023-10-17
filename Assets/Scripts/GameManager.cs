@@ -7,9 +7,11 @@ public class GameManager : MonoBehaviour
     public int requiredWood = 10; // Quantidade de madeira necessária para a vitória
     public int totalCollectedWood = 0; // Variável para rastrear a quantidade de madeira coletada
     public GameObject victoryMessage; // Objeto da mensagem de vitória
-
+    public static GameManager instance;
+    private void Awake() => instance = this;
     private void Start()
     {
+
         victoryMessage.SetActive(false); // Certifica-se de que a mensagem de vitória esteja desativada no início
     }
 
@@ -36,6 +38,5 @@ public class GameManager : MonoBehaviour
         totalCollectedWood++;
         CheckWinCondition();
     }
+
 }
-
-

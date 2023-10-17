@@ -27388,7 +27388,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad47f2b4629243408e0bd7b52a74b15, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  requiredWood: 10
+  requiredWood: 11
   totalCollectedWood: 0
   victoryMessage: {fileID: 739855314}
 --- !u!4 &1051040264
