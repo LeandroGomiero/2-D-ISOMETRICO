@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - EnemyBoar
+  - IdentificaObjeto
+  - wood
+  - PlayerItens
+  - MensagemVitoria
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - decoracao
+  - Player
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Enimy
+    uniqueID: 3554999579
+    locked: 0
+  - name: Player
+    uniqueID: 1609240397
+    locked: 0
+  - name: colliderDebug
+    uniqueID: 2901120279
+    locked: 0
+  - name: forgound
+    uniqueID: 4176767635
+    locked: 0
+  - name: UI
+    uniqueID: 1161213939
+    locked: 0
