@@ -42,6 +42,25 @@ CircleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -136,7 +155,7 @@ SpriteRenderer:
   m_SpriteSortPoint: 0
 --- !u!95 &1177882203746026579
 Animator:
-  serializedVersion: 4
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -153,7 +172,7 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!114 &1177882203746026582
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -210,9 +229,10 @@ GameObject:
   - component: {fileID: 1177882205174617244}
   - component: {fileID: 4467734947390848198}
   - component: {fileID: 1177882205174617232}
+  - component: {fileID: 440339069}
   m_Layer: 0
   m_Name: Boar_Isometric 1
-  m_TagString: EnemyBoar
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -232,7 +252,7 @@ Transform:
   - {fileID: 1177882203197780807}
   - {fileID: 1177882205023667085}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!50 &1177882205174617244
 Rigidbody2D:
@@ -251,6 +271,12 @@ Rigidbody2D:
   m_AngularDrag: 0.05
   m_GravityScale: 0
   m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
@@ -266,6 +292,7 @@ SortingGroup:
   m_SortingLayerID: -118199661
   m_SortingLayer: 4
   m_SortingOrder: 0
+  m_SortAtRoot: 0
 --- !u!114 &1177882205174617232
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -279,3 +306,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   movementSpeed: 1
+--- !u!114 &440339069
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1177882205174617247}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 430ea3abb86571141bc0114d22d2f1e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damagePerSecond: 10
