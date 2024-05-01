@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: snow_corner_S
   m_EditorClassIdentifier: 
   m_Sprite: {fileID: 21300000, guid: d88d123b7d295f0429b10e22f4cd0d63, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.5007565, g: 0.63636345, b: 0.8773585, a: 1}
   m_Transform:
     e00: 1
     e01: 0
