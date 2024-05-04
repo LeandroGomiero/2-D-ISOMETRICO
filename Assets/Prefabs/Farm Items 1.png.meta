@@ -3,7 +3,7 @@ guid: 939921cf2de1dd248afe24cfd817e763
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -20,11 +20,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
-  ignoreMasterTextureLimit: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -63,6 +64,8 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -74,6 +77,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -86,6 +90,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -98,6 +103,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -110,6 +116,33 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -250,7 +283,7 @@ TextureImporter:
         width: 380
         height: 680
       alignment: 9
-      pivot: {x: 0.5, y: 0.15}
+      pivot: {x: 0.5253636, y: 0.24449535}
       border: {x: 0, y: 12, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -504,27 +537,26 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Farm Items_3: 2033779897
-      Farm Items_9: 150186170
-      Farm Items_15: -1784745339
-      Farm Items_6: -937685632
+      Farm Items_0: 1976779601
       Farm Items_1: 1847301388
       Farm Items_10: -757593104
+      Farm Items_11: -2100406097
       Farm Items_12: 257899615
-      Farm Items_0: 1976779601
-      Farm Items_7: -370531788
-      Farm Items_4: -199592783
+      Farm Items_13: -685434167
+      Farm Items_14: 111038595
+      Farm Items_15: -1784745339
+      Farm Items_16: -1239400760
       Farm Items_17: 1264657603
       Farm Items_2: 1081646487
-      Farm Items_8: 1162275018
+      Farm Items_3: 2033779897
+      Farm Items_4: -199592783
       Farm Items_5: 1349801254
-      Farm Items_14: 111038595
-      Farm Items_11: -2100406097
-      Farm Items_13: -685434167
-      Farm Items_16: -1239400760
-  spritePackingTag: 
+      Farm Items_6: -937685632
+      Farm Items_7: -370531788
+      Farm Items_8: 1162275018
+      Farm Items_9: 150186170
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

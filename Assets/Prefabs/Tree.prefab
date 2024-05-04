@@ -24,13 +24,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8412581644922385022}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.81928515, y: -0.17077756, z: 0}
   m_LocalScale: {x: 4.6181827, y: 3.8484855, z: 3.8484855}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 8412581645323506636}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &8412581644922384992
 SpriteRenderer:
@@ -93,10 +93,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8412581645323506636}
-  - component: {fileID: 8412581645323506637}
   - component: {fileID: 1795799360}
   - component: {fileID: 1795799358}
-  - component: {fileID: 1795799361}
   m_Layer: 0
   m_Name: Tree
   m_TagString: Untagged
@@ -111,6 +109,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8412581645323506635}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -1.1807148, y: -3.3325346, z: 0.57373047}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -119,28 +118,7 @@ Transform:
   - {fileID: 8412581644922385023}
   - {fileID: 8412581645347391669}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!95 &8412581645323506637
-Animator:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8412581645323506635}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 4c2bfc75e3d2b4849bc087809d27f7da, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!50 &1795799360
 Rigidbody2D:
   serializedVersion: 4
@@ -158,6 +136,12 @@ Rigidbody2D:
   m_AngularDrag: 0.05
   m_GravityScale: 1
   m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
@@ -172,6 +156,25 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -192,22 +195,7 @@ PolygonCollider2D:
       - {x: -1.1267207, y: -0.44363678}
       - {x: -0.8097931, y: -0.58978915}
       - {x: -0.45565653, y: -0.41260844}
---- !u!114 &1795799361
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8412581645323506635}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2bb1e86ede2d74d4898f4dec7ac3405c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  treeHealth: 3
-  anim: {fileID: 8412581645323506637}
-  interactionDistance: 2
-  woodPrafab: {fileID: 7225561312191084017, guid: 7cf95f00e4a5a144997d1ea3c315b641, type: 3}
+  m_UseDelaunayMesh: 0
 --- !u!1 &8412581645347391668
 GameObject:
   m_ObjectHideFlags: 0
@@ -232,13 +220,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8412581645347391668}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.81928515, y: 0.5792224, z: 0}
   m_LocalScale: {x: 7.9541245, y: 6.628437, z: 6.628437}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 8412581645323506636}
-  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &8412581645347391670
 SpriteRenderer:
