@@ -10,6 +10,9 @@ TagManager:
   - PlayerItens
   - MensagemVitoria
   - Item
+  - KeyA
+  - KeyD
+  - Note
   layers:
   - Default
   - TransparentFX
