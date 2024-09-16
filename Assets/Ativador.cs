@@ -21,10 +21,12 @@ public class Ativador : MonoBehaviour
 
     void Update()
     {
+        // Verifica se a tecla foi pressionada, a nota está ativa e ainda existe
         if (Input.GetKeyDown(Key) && active && note != null)
         {
+            // Destruir a nota (gota de leite)
             Destroy(note);
-            note = null;
+            note = null;  // Certifica-se que a nota foi destruída
 
             // Adicionar pontuação ao destruir a nota
             if (minigameController != null)
@@ -42,6 +44,7 @@ public class Ativador : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        // Se colidir com um objeto que tenha a tag "Note", ativa a interação
         if (collision.gameObject.CompareTag("Note"))
         {
             active = true;
@@ -51,10 +54,12 @@ public class Ativador : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        if (collision.gameObject.CompareTag("Note"))
+        // Apenas redefina se a nota ainda existir (não foi destruída)
+        if (collision.gameObject.CompareTag("Note") && note != null)
         {
             active = false;
             note = null;
         }
     }
 }
+

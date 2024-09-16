@@ -15,7 +15,7 @@ public class MinigameController : MonoBehaviour
     public GameObject finalScreen; // Tela final para exibir a pontuação
 
     private int score = 0;
-    private float gameDuration = 60.0f; // Duração do minigame
+    private float gameDuration = 45.0f; // Duração do minigame
     private bool isGameActive = false;
 
     void Start()

@@ -421,8 +421,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Pr\xE9-Dipping: Um spray pra limpar os tetos da vaca antes de tirar o
-    leite. Simples e eficaz!\n\n "
+  m_text: "Pr\xE9-Dipping: Uma solu\xE7\xE3o l\xEDquida pra limpar os tetos da vaca
+    antes de tirar o leite. Simples e eficaz!\n\n "
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: e73a58f6e2794ae7b1b7e50b7fb811b0, type: 2}
@@ -1409,8 +1409,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "P\xF3s-Dipping: Um spray que voc\xEA usa nos tetos da vaca depois de tirar
-    o leite. Protege e cuida!\n\n "
+  m_text: "P\xF3s-Dipping: Uma solu\xE7\xE3o l\xEDquida que voc\xEA usa nos tetos
+    da vaca depois de tirar o leite.        \n\n "
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: e73a58f6e2794ae7b1b7e50b7fb811b0, type: 2}
@@ -1454,7 +1454,7 @@ MonoBehaviour:
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
   m_enableWordWrapping: 1
-  m_wordWrappingRatios: 0.2
+  m_wordWrappingRatios: 0.47
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
