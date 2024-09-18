@@ -1214,7 +1214,7 @@ MonoBehaviour:
   itemDescription: Teste PosDipping
   dialogueBox: {fileID: 883274758}
   dialogueText: {fileID: 0}
-  interactionPrompt: {fileID: 0}
+  interactionPrompt: {fileID: 1636392777}
 --- !u!1 &669621050
 GameObject:
   m_ObjectHideFlags: 0
@@ -2385,7 +2385,7 @@ MonoBehaviour:
   itemDescription: "Teste Pr\xE9dipping"
   dialogueBox: {fileID: 2144409062}
   dialogueText: {fileID: 0}
-  interactionPrompt: {fileID: 0}
+  interactionPrompt: {fileID: 1636392777}
 --- !u!210 &1126679609
 SortingGroup:
   m_ObjectHideFlags: 0
