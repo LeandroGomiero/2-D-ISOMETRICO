@@ -1,6 +1,7 @@
 using System.Collections;
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement; // Para reiniciar a cena
 
 public class MinigameController : MonoBehaviour
 {
@@ -80,5 +81,18 @@ public class MinigameController : MonoBehaviour
         finalScreen.SetActive(true);
         finalScoreText.text = "Final Score: " + score.ToString();
     }
+
+    // Método para reiniciar o jogo
+    public void RestartGame()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name); // Reinicia a cena atual
+    }
+
+    // Método para sair do jogo
+    public void QuitGame()
+    {
+        Application.Quit(); // Fecha o jogo (só funciona em builds, não no editor)
+    }
 }
+
 
